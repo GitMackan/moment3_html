@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Moment 2</title>
+</head>
+<body>
+    <!--Container-->
+    <div class="container">
+        <h1>Mina kurser</h1>
+        <!--Tabell-->
+        <table>
+            <tr>
+                <th class="courseName">Kursnamn</th>
+                <th class="courseCode">Kurskod</th>
+                <th class="term">Termin</th>
+                <th class="prog">Progression</th>
+                <th class="coursePlan">Kursplan</th>
+                <th class="term">Ta bort</th>
+            </tr>
+        </table>
+        <!--Tabell-->
+        <table id="courses">
+                <!--Hämtar data från main.js-->
+        </table>
+    
+    
+        <div class="form">
+            <h2>Lägg till kurs</h2>
+            <label for="name">Kursnamn:</label>
+            <input type="text" id="cName">
+            <br>
+            <label for="code">Kurskod:</label>
+            <input type="text" id="code">
+            <br>
+            <label for="term">Termin</label>
+            <input type="text" id="term">
+            <br>
+            <label for="prog">Progression:</label>
+            <input type="text" id="prog">
+            <br>
+            <label for="cPlan">Kursplan:</label>
+            <input type="text" id="cPlan">
+            <button id="addBtn">Lägg till kurs</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+.container h1 {
+    margin: 1em 0;
+    text-align: center;
+}
+table {
+    background-color: rgb(86, 87, 86);
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: .5em;
+}
+.courseName {
+    width: 25%;
+}
+.courseCode {
+    width: 15%;
+}
+.term {
+    width: 15%;
+}
+.prog {
+    width: 10%;
+}
+.coursePlan {
+    width: 20%;
+}
+.btn {
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+table a {
+    text-decoration: none;
+    color: rgb(166, 166, 230);
+}
+table a:hover {
+    text-decoration: underline;
+}
+
+
+/* FORMULÄR */
+
+.form {
+    width: 100%;
+    display: grid;
+    margin-top: 5%;
+}
+.form label, .form input, .form h2, #addBtn {
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+}
+#addBtn {
+    margin-top: 2em;
+    width: 200px;
+    height: 3em;
+    background: green;
+    color: white;
+}
